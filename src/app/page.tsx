@@ -14,8 +14,8 @@ export default function Home() {
          className="rounded-md"
          src="/personal-photo.jpg"
          alt="Aphoey's profile photo"
-         width={400}
-         height={215}
+         width={368}
+         height={197}
         />
 
       {/* --Main Section */}
