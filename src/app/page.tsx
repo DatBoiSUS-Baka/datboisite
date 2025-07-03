@@ -23,7 +23,7 @@ export default function Home() {
       {/* Footer Section-- */}
 
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <h2>This is a footer</h2>
+        <h2>Created by DatBoiSUS-Baka using Next.js</h2>
       </footer>
 
       {/* --Footer Section */}
