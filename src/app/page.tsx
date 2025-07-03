@@ -8,14 +8,15 @@ export default function Home() {
 
       {/* Main Section */}
 
-        <h1 className="text-7xl font-">DatBoiSite</h1>
+        <h1 className="text-6xl font-">DatBoiSite</h1>
 
         <img
-         src="/globe.svg"
+         className="rounded-md"
+         src="/personal-photo.jpg"
          alt="Aphoey's profile photo"
          width={180}
          height={60}
-          />
+        />
 
       {/* --Main Section */}
 
