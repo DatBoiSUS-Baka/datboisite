@@ -11,11 +11,11 @@ export default function Home() {
 
       {/* Main Section */}
         <div className='row-start-1'>
-          <h1 className="text-6xl">DatBoiSite</h1>
+          <h1 className="text-6xl text-center">DatBoiSite</h1>
           <h2 className="text-2xl text-center">A Personal Portfolio Website</h2>
         </div>
 
-        <div className="row-start-2 items-center flex flex">
+        <div className="row-start-2 items-center flex flex gap-5">
 
           <img
           className="rounded-md"
