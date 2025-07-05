@@ -2,6 +2,9 @@
 // 03-Jul-2025
 // app/page.tsx
 
+import Button from './button';
+
+
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-10 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -21,6 +24,12 @@ export default function Home() {
           width={368}
           height={197}
           />
+
+          <div className='flex flex-col'>
+            <Button link='/groups'>Groups</Button>
+            <Button link='#'>Idol</Button>
+            <Button link='#'>Projects</Button>
+          </div>
 
         </div>
 
