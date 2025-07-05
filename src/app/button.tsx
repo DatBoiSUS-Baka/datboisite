@@ -9,7 +9,7 @@ const Button = ({ children, link } : {children:string, link:string}) =>
 {
     return (
         <button
-        className='p-2 hover: bg-blue-500 hover:bg-blue-700 font-bold m-3 rounded'>
+        className='p-2 font-bold m-2 rounded primary-button'>
             <a href={link}>
                 {children}
             </a>
