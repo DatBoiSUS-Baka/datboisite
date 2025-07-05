@@ -27,7 +27,7 @@ export default function Home() {
 
           <div className='flex flex-col'>
             <Button link='/groups'>Groups</Button>
-            <Button link='#'>Idol</Button>
+            <Button link='#'>Performances</Button>
             <Button link='#'>Projects</Button>
           </div>
 
