@@ -8,15 +8,18 @@ export default function Home() {
 
       {/* Main Section */}
 
-        <h1 className="text-6xl font-">DatBoiSite</h1>
+        <div className="row-start-2 items-center justify-items-center">
 
+          <h2 className="text-2xl text-center">A Personal Portfolio Website</h2>
         <img
-         className="rounded-md"
+          className="rounded-md justify-items-center"
          src="/personal-photo.jpg"
          alt="Aphoey's profile photo"
          width={368}
          height={197}
         />
+
+        </div>
 
       {/* --Main Section */}
 
